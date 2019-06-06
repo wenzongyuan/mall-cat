@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.TradeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.Trade">
+        <id column="id" property="id" />
+        <result column="trade_no" property="tradeNo" />
+        <result column="parent_no" property="parentNo" />
+        <result column="sys_express_company_ids" property="sysExpressCompanyIds" />
+        <result column="type" property="type" />
+        <result column="status" property="status" />
+        <result column="buyer_id" property="buyerId" />
+        <result column="buyer_message" property="buyerMessage" />
+        <result column="close_type" property="closeType" />
+        <result column="close_date" property="closeDate" />
+        <result column="expired_date" property="expiredDate" />
+        <result column="confirm_date" property="confirmDate" />
+        <result column="express_type" property="expressType" />
+        <result column="receiver_address_id" property="receiverAddressId" />
+        <result column="receiver_name" property="receiverName" />
+        <result column="receiver_address" property="receiverAddress" />
+        <result column="receiver_mobile" property="receiverMobile" />
+        <result column="consign_date" property="consignDate" />
+        <result column="success_date" property="successDate" />
+        <result column="transaction_id" property="transactionId" />
+        <result column="pay_type" property="payType" />
+        <result column="pay_date" property="payDate" />
+        <result column="outert_no" property="outertNo" />
+        <result column="total_fee" property="totalFee" />
+        <result column="post_fee" property="postFee" />
+        <result column="discount_fee" property="discountFee" />
+        <result column="pay_fee" property="payFee" />
+        <result column="refunded_fee" property="refundedFee" />
+        <result column="refund_status" property="refundStatus" />
+        <result column="is_invoice" property="isInvoice" />
+        <result column="goods_ids" property="goodsIds" />
+        <result column="trans_ids" property="transIds" />
+        <result column="update_by" property="updateBy" />
+        <result column="create_date" property="createDate" />
+        <result column="update_date" property="updateDate" />
+        <result column="del_flag" property="delFlag" />
+        <result column="receive_expire_date" property="receiveExpireDate" />
+        <result column="cancel_reason" property="cancelReason" />
+        <result column="remark" property="remark" />
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.TradePackageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.TradePackage">
+        <id column="id" property="id" />
+        <result column="express_state" property="expressState" />
+        <result column="express_type" property="expressType" />
+        <result column="trade_id" property="tradeId" />
+        <result column="trade_no" property="tradeNo" />
+        <result column="express_no" property="expressNo" />
+        <result column="ep_id" property="epId" />
+        <result column="company_name" property="companyName" />
+        <result column="sendpackage_date" property="sendpackageDate" />
+    </resultMap>
+
+</mapper>

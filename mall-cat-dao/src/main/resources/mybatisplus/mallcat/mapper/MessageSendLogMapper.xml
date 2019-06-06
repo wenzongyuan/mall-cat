@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.MessageSendLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.MessageSendLog">
+        <id column="id" property="id" />
+        <result column="message_id" property="messageId" />
+        <result column="message_key" property="messageKey" />
+        <result column="message_tag" property="messageTag" />
+        <result column="message_topic" property="messageTopic" />
+        <result column="message_body" property="messageBody" />
+        <result column="send_status" property="sendStatus" />
+    </resultMap>
+
+</mapper>

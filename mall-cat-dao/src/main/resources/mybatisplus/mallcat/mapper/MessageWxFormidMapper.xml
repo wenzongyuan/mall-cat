@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.MessageWxFormidMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.MessageWxFormid">
+        <id column="id" property="id" />
+        <result column="member_id" property="memberId" />
+        <result column="open_id" property="openId" />
+        <result column="form_id" property="formId" />
+        <result column="del_flag" property="delFlag" />
+        <result column="create_date" property="createDate" />
+    </resultMap>
+
+</mapper>

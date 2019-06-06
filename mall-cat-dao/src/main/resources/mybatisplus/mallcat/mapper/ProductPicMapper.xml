@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.ProductPicMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.ProductPic">
+        <id column="id" property="id" />
+        <result column="product_id" property="productId" />
+        <result column="type" property="type" />
+        <result column="pic_file_id" property="picFileId" />
+        <result column="pic_file_path" property="picFilePath" />
+        <result column="is_main" property="isMain" />
+        <result column="order" property="order" />
+    </resultMap>
+
+</mapper>

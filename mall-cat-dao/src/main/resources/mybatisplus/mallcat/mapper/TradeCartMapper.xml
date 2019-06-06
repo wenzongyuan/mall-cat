@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.TradeCartMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.TradeCart">
+        <id column="id" property="id" />
+        <result column="member_id" property="memberId" />
+        <result column="product_base_id" property="productBaseId" />
+        <result column="sku_id" property="skuId" />
+        <result column="goods_num" property="goodsNum" />
+        <result column="spec_attr" property="specAttr" />
+        <result column="pic_path" property="picPath" />
+        <result column="name" property="name" />
+        <result column="goods_price" property="goodsPrice" />
+        <result column="create_date" property="createDate" />
+        <result column="update_date" property="updateDate" />
+    </resultMap>
+
+</mapper>

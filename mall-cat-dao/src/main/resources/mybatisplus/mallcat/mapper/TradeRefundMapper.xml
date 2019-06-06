@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.TradeRefundMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.TradeRefund">
+        <id column="id" property="id" />
+        <result column="trade_id" property="tradeId" />
+        <result column="out_refund_no" property="outRefundNo" />
+        <result column="settlement_refund_fee" property="settlementRefundFee" />
+        <result column="refunded_date" property="refundedDate" />
+        <result column="create_date" property="createDate" />
+    </resultMap>
+
+</mapper>

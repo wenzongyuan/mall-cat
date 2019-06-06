@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.TradeInvoiceMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.TradeInvoice">
+        <id column="id" property="id" />
+        <result column="trade_id" property="tradeId" />
+        <result column="trade_no" property="tradeNo" />
+        <result column="invoice_type" property="invoiceType" />
+        <result column="invoice_tax_no" property="invoiceTaxNo" />
+        <result column="invoice_title" property="invoiceTitle" />
+    </resultMap>
+
+</mapper>

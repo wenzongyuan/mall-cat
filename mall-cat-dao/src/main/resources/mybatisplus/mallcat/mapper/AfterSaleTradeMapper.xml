@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.AfterSaleTradeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.AfterSaleTrade">
+        <id column="id" property="id" />
+        <result column="trade_id" property="tradeId" />
+        <result column="trade_no" property="tradeNo" />
+        <result column="product_category_id" property="productCategoryId" />
+        <result column="product_name" property="productName" />
+        <result column="sku_id" property="skuId" />
+        <result column="sku_no" property="skuNo" />
+        <result column="refund_num" property="refundNum" />
+        <result column="spec_ids" property="specIds" />
+        <result column="spec_names" property="specNames" />
+        <result column="refunded_fee" property="refundedFee" />
+        <result column="type" property="type" />
+        <result column="after_sales_time" property="afterSalesTime" />
+        <result column="refund_reason" property="refundReason" />
+        <result column="refunded_description" property="refundedDescription" />
+        <result column="handler_id" property="handlerId" />
+        <result column="handler_name" property="handlerName" />
+        <result column="refund_status" property="refundStatus" />
+        <result column="handle_refund_time" property="handleRefundTime" />
+    </resultMap>
+
+</mapper>

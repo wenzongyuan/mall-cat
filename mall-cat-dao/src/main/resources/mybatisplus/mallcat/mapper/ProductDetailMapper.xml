@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wzy.mallcat.dao.mapper.ProductDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.wzy.mallcat.dao.entity.ProductDetail">
+        <id column="id" property="id" />
+        <result column="supplier_id" property="supplierId" />
+        <result column="product_id" property="productId" />
+        <result column="product_no" property="productNo" />
+        <result column="pdt_no" property="pdtNo" />
+        <result column="supplier_no" property="supplierNo" />
+        <result column="red_num" property="redNum" />
+        <result column="sale_num" property="saleNum" />
+        <result column="total_stock" property="totalStock" />
+        <result column="pdt_stock" property="pdtStock" />
+        <result column="freeze_stock" property="freezeStock" />
+        <result column="weight" property="weight" />
+        <result column="sale_price" property="salePrice" />
+        <result column="cost_price" property="costPrice" />
+        <result column="market_price" property="marketPrice" />
+        <result column="del_flag" property="delFlag" />
+        <result column="create_by" property="createBy" />
+        <result column="update_by" property="updateBy" />
+        <result column="create_date" property="createDate" />
+        <result column="update_date" property="updateDate" />
+    </resultMap>
+
+</mapper>
