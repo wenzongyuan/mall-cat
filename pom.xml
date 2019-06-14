@@ -19,10 +19,13 @@
     <modules>
         <module>mall-cat-dao</module>
         <module>mall-cat-common</module>
-        <module>mall-cat-admin</module>
         <module>mall-cat-dubbo-api</module>
         <module>mall-cat-backend</module>
         <module>mall-cat-front</module>
+        <module>dubbo-mall-cat-admin</module>
+        <module>dubbo-mall-cat-member</module>
+        <module>dubbo-mall-cat-product</module>
+        <module>dubbo-mall-cat-order</module>
     </modules>
 
 
@@ -248,16 +251,11 @@
             <version>1.7.5</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
-
-        <!-- https://mvnrepository.com/artifact/org.glassfish/javax.el -->
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>javax.el</artifactId>
             <version>3.0.0</version>
         </dependency>
-
-
 
         <dependency>
             <groupId>joda-time</groupId>

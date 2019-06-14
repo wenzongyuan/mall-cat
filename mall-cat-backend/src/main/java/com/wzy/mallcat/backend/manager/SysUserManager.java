@@ -2,8 +2,8 @@ package com.wzy.mallcat.backend.manager;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.wzy.mallcat.backend.dto.SysUserDto;
-import com.wzy.mallcat.dubboapi.sysuser.IDubboSysUserService;
-import com.wzy.mallcat.dubboapi.sysuser.bo.SysUserBo;
+import com.wzy.mallcat.dubboapi.admin.IDubboSysUserService;
+import com.wzy.mallcat.dubboapi.admin.bo.SysUserBo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
