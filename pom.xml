@@ -66,7 +66,7 @@
         <zookeeper_version>3.4.6</zookeeper_version>
         <zkclient_version>0.1</zkclient_version>
         <dubbo-spring-boot-starter>0.2.0</dubbo-spring-boot-starter>
-        <hibernate-validator.version>6.0.16.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.20.Final</hibernate-validator.version>
         <javax.validation.version>2.0.1.Final</javax.validation.version>
         <cas-client-autoconfig-support.version>2.3.0-GA</cas-client-autoconfig-support.version>
         <cas.client.version>3.5.0</cas.client.version>
